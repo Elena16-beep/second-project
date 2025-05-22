@@ -151,3 +151,19 @@ $ git commit -m "Исправить #334, добавить график температуры"
 
 
 
+```mermaid
+graph
+LR;
+untracked -- "git add" --> staged;
+staged    -- "???"     --> tracked/comitted;
+
+
+
+%% стрелка без текста для примера:
+A --> B;
+
+```
+
+
+
+
